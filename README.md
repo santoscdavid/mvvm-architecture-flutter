@@ -2,15 +2,27 @@
 
 Example of the MVVM architecture pattern
 
-## Getting Started
+### ptbr
 
-This project is a starting point for a Flutter application.
+Esse padrão de arquitetura separa a camada de logica de negocio (Model) da interface do usuário (
+View) usando uma camada intermediária (ViewModel).
 
-A few resources to get you started if this is your first Flutter project:
+Model:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Representa a lógica de negócios e a fonte de dados da aplicação. Ela não tem conhecimento do resto
+das camadas do aplicativo.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+View:
+
+Responsável pela interface gráfica do aplicativo e pela exibição dos dados.
+
+ViewModel:
+
+Atua como intermediaria entre a View e o Model, as ligando. Ela gerencia o estado e a lógica de
+apresentação na interface
+
+Vantagens
+
+- Separação clara de responsabilidades do aplicativo
+- Capacidade de escalar bem em projetos maiores
+- Fácil manutenção
