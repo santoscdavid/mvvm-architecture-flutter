@@ -2,7 +2,7 @@
 
 Example of the MVVM architecture pattern
 
-### ptbr
+### PTBR
 
 Esse padrão de arquitetura separa a camada de logica de negocio (Model) da interface do usuário (
 View) usando uma camada intermediária (ViewModel).
